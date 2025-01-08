@@ -1,0 +1,70 @@
+[STRUCTURE_PROJET]
+    [DOSSIER_LOGS_FILES]
+    - ce dossier contient tous les logs et fichiers temporaires.
+    - il contient :
+        --header_ckeck.log
+        --width_files_check.log
+        --modules_control.log
+    [DOSSIER_MODULES_CONTROL]
+    - ce dossier contient les sous-modules des modules.
+    - il contient :
+        --file_analyzer.ps1
+        --file_control.ps1
+        --file_logger.ps1
+        --file_splitter.ps1
+    [DOSSIER_TEST_ZONE]
+    - ce dossier contient un dossier par module.
+    - il contient :
+        [en_tete_control]
+            - "test_en_tete_control.ps1"
+        [gestion]
+            - "test_gestion.ps1"
+        [logs_files]
+            - "test_logs_files.ps1"
+        [modules_control]
+            - "test_modules_control.ps1"
+        [tests_template]
+            - "test_template_defaut.ps1"
+            - "test_template_en_tete_control.ps1"
+            - "test_template_gestion.ps1"
+            - "test_template_logs_files.ps1"
+            - "test_template_modules_control.ps1"
+            - "test_template_test_zone.ps1"
+            - "test_template_width_files_control.ps1"
+        [width_files_control]
+            - "test_width_files_control.ps1"
+[.windsurfrules]
+    - ".windsurfrules"
+
+[FICHIERS_PRINCIPAUX]
+1. "gestion.ps1" <<<ce fichier est le fichier principal.>>>
+2. "en_tete_control.ps1" <<<ce fichier est un module principal.>>>
+3. "width_files_control.ps1" <<<ce fichier est un module principal.>>>
+4. "package.json" <<<ce fichier est un fichier de test.>>>
+
+[MODULES_A_FAIRE]
+1. "file_generator.ps1" <<<ce fichier va generer le kit de base pour construire un module >>>
+    - il va fournir une liste de questions/reponses avec utilisateur pour parametrer le kit de base.
+    - l'utilisateur va fournir une description du besoin.
+    - le generateur va analyser la demande et fournir un dossier contenant:
+        1. readme.md <<<<contient la description du besoin>>>
+        2. le fichier de test <<< en fonction du besoin >>>
+        3. le fichier principal
+        4. les sous modules
+        5. le generateur va coder le fichier principal et les sous modules pour assurer les imports des sous modules.
+    - il va lancer une suite de modules de controle pour :
+        1. construire une en-tete par "defaut"
+        2. injecter les modules :
+            -logs_files <<<en temps reel>>>
+            -gestion <<<verifie les imports des modules principaux et rajoute les modules principaux manquants>>>
+            -modules_control <<<verifie les imports des sous modules dans les modules principaux et rajoute les sous modules manquants>>>
+            -width_files_control <<<verifie, a chaque modification d un fichier, la taille et la longueur des fichiers .ps1, psm1>>>
+2. "logs_files.ps1" <<<controle le bon fonctionnement des logs>>>
+3. "modules_control.ps1" <<<controle le bon fonctionnement des modules>>>
+4. "encodage_control.ps1" <<<controle le bon fonctionnement des encodages>>>
+
+[CONSTRUCTION_MODULES_ET_DES_SOUS_MODULES_ET_FONCTIONS]
+- regles communes :
+1. En-tête : Lire le code dans "en_tete_control.ps1"
+2. longueur des fichiers : lire le code dans "width_files_control.ps1" 
+3. 

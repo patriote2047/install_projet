@@ -1,0 +1,9 @@
+// je suis un fichier pour les tests de  "version" et de "auteur" //
+// je dois etre placer a la racine du projet pour simuler le package.json //
+{
+  "name": "powershell-tools",
+  "version": "1.0.0",
+  "description": "Collection d'outils PowerShell",
+  "author": "John Doe <john.doe@example.com>",
+  "license": "MIT"
+}

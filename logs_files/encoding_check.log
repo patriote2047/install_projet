@@ -1,0 +1,500 @@
+﻿[2025-01-08 14:27:58][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:27:58][INFO] DÃ©marrage du contrÃ´le d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:27:58][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt dÃ©jÃ  en UTF8
+[2025-01-08 14:27:58][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:27:58][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF8BOM vers UTF8
+[2025-01-08 14:27:58][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt dÃ©tectÃ© en UTF16LE, conversion nÃ©cessaire
+[2025-01-08 14:27:58][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:27:58][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:27:58][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:27:58][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:27:58][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:27:58][SUCCESS] ContrÃ´le d'encodage terminÃ©
+[2025-01-08 14:29:14][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:29:14][INFO] DÃ©marrage du contrÃ´le d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:29:14][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt dÃ©jÃ  en UTF8
+[2025-01-08 14:29:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:29:14][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF8BOM vers UTF8
+[2025-01-08 14:29:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt dÃ©tectÃ© en UTF16LE, conversion nÃ©cessaire
+[2025-01-08 14:29:14][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:29:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:29:14][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:29:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt dÃ©tectÃ© en UTF8BOM, conversion nÃ©cessaire
+[2025-01-08 14:29:14][SUCCESS] Conversion rÃ©ussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:29:14][SUCCESS] ContrÃ´le d'encodage terminÃ©
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:30:14][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:30:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:30:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de ASCII vers UTF8
+[2025-01-08 14:30:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:30:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:30:14][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:30:14][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:30:14][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:30:32][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:30:32][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:30:32][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de ASCII vers UTF8
+[2025-01-08 14:30:32][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:30:32][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:30:32][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:30:32][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:30:32][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:31:08][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:31:08][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:31:08][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de ASCII vers UTF8
+[2025-01-08 14:31:08][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:31:08][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:31:08][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:31:08][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:31:08][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:31:29][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:31:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:31:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de ASCII vers UTF8
+[2025-01-08 14:31:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:31:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de UTF8BOM vers UTF8
+[2025-01-08 14:31:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:31:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:31:29][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:32:48][INFO] Le fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt est deja en UTF8
+[2025-01-08 14:32:48][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:32:48][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:32:48][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:32:48][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:32:48][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt deja en UTF8
+[2025-01-08 14:32:48][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:32:48][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt deja en UTF8
+[2025-01-08 14:32:48][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:37:27][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:37:27][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:37:27][ERROR] Erreur lors du controle d'encodage : Le terme « Write-EncodingLog » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:39:33][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:39:33][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:39:33][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de ASCII vers UTF8
+[2025-01-08 14:39:33][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:39:33][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt de ASCII vers UTF8
+[2025-01-08 14:39:33][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:39:33][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de ASCII vers UTF8
+[2025-01-08 14:39:33][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:41:47][INFO] UTF-16BE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:41:47][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:41:47][INFO] UTF-16BE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:41:47][INFO] UTF-16BE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:41:47][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16BE vers UTF8
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:41:47][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:41:47][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:41:47][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:41:47][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:41:47][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:41:47][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:41:47][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:41:47][WARNING] Erreur lors de l'ecriture du fichier. Restauration de la sauvegarde...
+[2025-01-08 14:41:47][ERROR] Erreur lors de la conversion de l'encodage : La verification de l'encodage a echoue. Attendu: UTF8, Obtenu: ASCII
+[2025-01-08 14:41:47][ERROR] Echec de la conversion pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:41:47][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:41:47][INFO] UTF-16BE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:41:47][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16BE, conversion necessaire
+[2025-01-08 14:41:47][INFO] UTF-16BE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:41:47][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16BE vers UTF8
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:41:47][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:41:47][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:41:47][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:41:47][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt deja en UTF8
+[2025-01-08 14:41:47][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:42:40][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][WARNING] Erreur lors de l'ecriture du fichier. Restauration de la sauvegarde...
+[2025-01-08 14:42:40][ERROR] Erreur lors de la conversion de l'encodage : La verification de l'encodage a echoue. Attendu: UTF8, Obtenu: ASCII
+[2025-01-08 14:42:40][ERROR] Echec de la conversion pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:42:40][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:42:40][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:42:40][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:42:40][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:42:40][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:42:40][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt deja en UTF8
+[2025-01-08 14:42:40][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:43:41][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][WARNING] Erreur lors de l'ecriture du fichier. Restauration de la sauvegarde...
+[2025-01-08 14:43:41][ERROR] Erreur lors de la conversion de l'encodage : La verification de l'encodage a echoue. Attendu: UTF8, Obtenu: ASCII
+[2025-01-08 14:43:41][ERROR] Echec de la conversion pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:43:41][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:43:41][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:43:41][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:43:41][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:43:41][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:43:41][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:43:41][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:43:41][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:47:29][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:47:29][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:47:29][DEBUG] Contenu lu: Test de contenu avec caract??res sp??ciaux : ????????????????????????
+[2025-01-08 14:47:29][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][WARNING] Erreur lors de l'ecriture du fichier. Restauration de la sauvegarde...
+[2025-01-08 14:47:29][ERROR] Erreur lors de la conversion de l'encodage : La verification de l'encodage a echoue. Attendu: UTF8, Obtenu: ASCII
+[2025-01-08 14:47:29][ERROR] Echec de la conversion pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:29][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:29][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:47:29][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:29][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:29][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:29][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:47:29][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:29][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:29][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:29][SUCCESS] Controle d'encodage termine
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt (sans BOM)
+[2025-01-08 14:47:45][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt de UTF16LE vers UTF8
+[2025-01-08 14:47:45][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] Demarrage du controle d'encodage dans D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt detecte en ASCII, conversion necessaire
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt de ASCII vers UTF8
+[2025-01-08 14:47:45][DEBUG] Contenu lu: Test de contenu avec caract??res sp??ciaux : ????????????????????????
+[2025-01-08 14:47:45][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][WARNING] Erreur lors de l'ecriture du fichier. Restauration de la sauvegarde...
+[2025-01-08 14:47:45][ERROR] Erreur lors de la conversion de l'encodage : La verification de l'encodage a echoue. Attendu: UTF8, Obtenu: ASCII
+[2025-01-08 14:47:45][ERROR] Echec de la conversion pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\ascii.txt
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt
+[2025-01-08 14:47:45][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\to_convert.txt deja en UTF8
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:45][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt detecte en UTF16LE, conversion necessaire
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][INFO] UTF-16LE detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt (sans BOM)
+[2025-01-08 14:47:45][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt de UTF16LE vers UTF8
+[2025-01-08 14:47:45][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf16le.txt
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt
+[2025-01-08 14:47:45][INFO] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8.txt deja en UTF8
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:45][WARNING] Fichier D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt detecte en UTF8BOM, conversion necessaire
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 14:47:45][INFO] Conversion de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt de UTF8BOM vers UTF8
+[2025-01-08 14:47:45][DEBUG] Contenu lu: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][DEBUG] Conversion en UTF-8 sans BOM
+[2025-01-08 14:47:45][DEBUG] DÃ©tection du BOM pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][DEBUG] Aucun BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][DEBUG] Contenu aprÃ¨s conversion: Test de contenu avec caractÃ¨res spÃ©ciaux : Ã©Ã¨ÃªÃ«Ã Ã¢Ã¤Ã´Ã¶Ã»Ã¼Ã§
+[2025-01-08 14:47:45][SUCCESS] Conversion reussie de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\temp_test_files\utf8bom.txt
+[2025-01-08 14:47:45][SUCCESS] Controle d'encodage termine
+[2025-01-08 15:05:56][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:05:56][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:05:56][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:05:57][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:05:57][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:05:57][Error] Erreur lors du contrÃ´le d'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt : Impossible de trouver un paramètre correspondant au nom « Path ».
+[2025-01-08 15:07:10][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt
+[2025-01-08 15:07:10][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 15:07:10][INFO] Conversion nÃ©cessaire pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt : UTF8BOM -> UTF8
+[2025-01-08 15:07:10][Error] Erreur lors de la conversion de l'encodage : Impossible de valider l'argument sur le paramètre « Encoding ». L'argument « utf8NoBOM » n'appartient pas au jeu « unknown;string;unicode;bigendianunicode;utf8;utf7;utf32;ascii;default;oem » spécifié par l'attribut ValidateSet. Indiquez un argument qui se trouve dans le jeu et réessayez.
+[2025-01-08 15:07:10][INFO] Conversion rÃ©ussie pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt
+[2025-01-08 15:07:10][INFO] BOM UTF-8 detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt
+[2025-01-08 15:07:10][DEBUG] BOM UTF-8 : EF BB BF
+[2025-01-08 15:07:10][INFO] Conversion nÃ©cessaire pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt : UTF8BOM -> UTF8
+[2025-01-08 15:07:10][Error] Erreur lors de la conversion de l'encodage : Impossible de valider l'argument sur le paramètre « Encoding ». L'argument « utf8NoBOM » n'appartient pas au jeu « unknown;string;unicode;bigendianunicode;utf8;utf7;utf32;ascii;default;oem » spécifié par l'attribut ValidateSet. Indiquez un argument qui se trouve dans le jeu et réessayez.
+[2025-01-08 15:07:10][INFO] Conversion rÃ©ussie pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt
+[2025-01-08 15:07:10][INFO] ASCII detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:07:10][INFO] Conversion nÃ©cessaire pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt : ASCII -> UTF8
+[2025-01-08 15:07:10][Error] Erreur lors de la conversion de l'encodage : Impossible de valider l'argument sur le paramètre « Encoding ». L'argument « utf8NoBOM » n'appartient pas au jeu « unknown;string;unicode;bigendianunicode;utf8;utf7;utf32;ascii;default;oem » spécifié par l'attribut ValidateSet. Indiquez un argument qui se trouve dans le jeu et réessayez.
+[2025-01-08 15:07:10][INFO] Conversion rÃ©ussie pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf16le.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\to_convert.txt
+[2025-01-08 15:08:49][Error] Erreur lors de la conversion de l'encodage : Impossible de valider l'argument sur le paramètre « Encoding ». L'argument « utf8NoBOM » n'appartient pas au jeu « unknown;string;unicode;bigendianunicode;utf8;utf7;utf32;ascii;default;oem » spécifié par l'attribut ValidateSet. Indiquez un argument qui se trouve dans le jeu et réessayez.
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\to_convert.txt
+[2025-01-08 15:08:49][Info] === DÃ©marrage du contrÃ´le d'encodage ===
+[2025-01-08 15:08:49][Info] 
+Test du fichier : D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:08:49][Info] Encodage initial : UTF8
+[2025-01-08 15:08:49][Success] L'encodage est dÃ©jÃ  correct (UTF8)
+[2025-01-08 15:08:49][Info] 
+Test du fichier : D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\to_convert.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\to_convert.txt
+[2025-01-08 15:08:49][Info] Encodage initial : UTF8
+[2025-01-08 15:08:49][Success] L'encodage est dÃ©jÃ  correct (UTF8)
+[2025-01-08 15:08:49][Info] 
+Test du fichier : D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf16le.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf16le.txt
+[2025-01-08 15:08:49][Info] Encodage initial : UTF8
+[2025-01-08 15:08:49][Success] L'encodage est dÃ©jÃ  correct (UTF8)
+[2025-01-08 15:08:49][Info] 
+Test du fichier : D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8.txt
+[2025-01-08 15:08:49][Info] Encodage initial : UTF8
+[2025-01-08 15:08:49][Success] L'encodage est dÃ©jÃ  correct (UTF8)
+[2025-01-08 15:08:49][Info] 
+Test du fichier : D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\utf8bom.txt
+[2025-01-08 15:08:49][Info] Encodage initial : UTF8
+[2025-01-08 15:08:49][Success] L'encodage est dÃ©jÃ  correct (UTF8)
+[2025-01-08 15:08:49][Info] 
+=== Fin du contrÃ´le d'encodage ===
+[2025-01-08 15:08:49][INFO] UTF-8 sans BOM detecte pour D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt
+[2025-01-08 15:08:49][Info] Conversion de l'encodage de D:\gestion_install_powershell_projet_react\test_zone\encodage_control\test_files\ascii.txt de UTF8 vers 
