@@ -6,10 +6,10 @@
 #########################################################################
 
 # Importer les modules nécessaires
-. $PSScriptRoot\modules_control\width_modules\file_analyzer.ps1
-. $PSScriptRoot\modules_control\width_modules\file_splitter.ps1
-. $PSScriptRoot\modules_control\width_modules\file_logger.ps1
-. $PSScriptRoot\logs_files.ps1
+Import-Module -Path $PSScriptRoot\modules_control\width_modules\file_analyzer.ps1
+Import-Module -Path $PSScriptRoot\modules_control\width_modules\file_splitter.ps1
+Import-Module -Path $PSScriptRoot\modules_control\width_modules\file_logger.ps1
+Import-Module -Path $PSScriptRoot\logs_files.psm1
 
 # Définir le module
 New-Module -Name "WidthFilesControl" -ScriptBlock {
@@ -43,91 +43,70 @@ New-Module -Name "WidthFilesControl" -ScriptBlock {
         Write-LogMessage "Limite configurée : $MaxLines lignes" -Level Info -Module "WidthFiles"
         
         # Vérifier le dépassement
-        if ($lineCount -gt $MaxLines) {
-            Write-LogMessage "ATTENTION : Dépassement détecté !" -Level Warning -Module "WidthFiles"
-            Write-LogMessage "Le fichier dépasse de $($lineCount - $MaxLines) lignes" -Level Warning -Module "WidthFiles"
-            
-            if ($AutoSplit) {
-                Write-LogMessage "DÉBUT DE LA DIVISION DU FICHIER" -Level Warning -Module "WidthFiles"
-                Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
+        try {
+            if ($lineCount -gt $MaxLines) {
+                Write-LogMessage "ATTENTION : Dépassement détecté !" -Level Warning -Module "WidthFiles"
+                Write-LogMessage "Le fichier dépasse de $($lineCount - $MaxLines) lignes" -Level Warning -Module "WidthFiles"
                 
-                try {
-                    $result = Split-FileIntoModules -FilePath $FilePath -MaxLinesPerFile $MaxLines
-                    
-                    # Journaliser les détails de la division
-                    Write-LogMessage "DIVISION RÉUSSIE !" -Level Info -Module "WidthFiles"
-                    Write-LogMessage "Fichier d'origine : $FilePath" -Level Info -Module "WidthFiles"
-                    Write-LogMessage "Nouveaux fichiers créés :" -Level Info -Module "WidthFiles"
-                    Write-LogMessage "---------------------------------------" -Level Info -Module "WidthFiles"
-                    
-                    foreach ($module in $result.GetEnumerator()) {
-                        $moduleLines = (Get-Content $module.Value).Count
-                        Write-LogMessage "- $($module.Value)" -Level Info -Module "WidthFiles"
-                        Write-LogMessage "  Nombre de lignes : $moduleLines" -Level Info -Module "WidthFiles"
-                    }
-                    
-                    Write-LogMessage "---------------------------------------" -Level Info -Module "WidthFiles"
-                    Write-LogMessage "Sauvegarde de l'original : $FilePath.old" -Level Info -Module "WidthFiles"
+                if ($AutoSplit) {
+                    Write-LogMessage "DÉBUT DE LA DIVISION DU FICHIER" -Level Warning -Module "WidthFiles"
                     Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
                     
-                    return $result
+                    try {
+                        $result = Split-FileIntoModules -FilePath $FilePath -MaxLinesPerFile $MaxLines
+                        
+                        # Journaliser les détails de la division
+                        Write-LogMessage "DIVISION RÉUSSIE !" -Level Info -Module "WidthFiles"
+                        Write-LogMessage "Fichier d'origine : $FilePath" -Level Info -Module "WidthFiles"
+                        Write-LogMessage "Nouveaux fichiers créés :" -Level Info -Module "WidthFiles"
+                        Write-LogMessage "---------------------------------------" -Level Info -Module "WidthFiles"
+                        
+                        foreach ($module in $result.GetEnumerator()) {
+                            $moduleLines = (Get-Content $module.Value).Count
+                            Write-LogMessage "- $($module.Value)" -Level Info -Module "WidthFiles"
+                            Write-LogMessage "  Nombre de lignes : $moduleLines" -Level Info -Module "WidthFiles"
+                        }
+                        
+                        Write-LogMessage "---------------------------------------" -Level Info -Module "WidthFiles"
+                        Write-LogMessage "Sauvegarde de l'original : $FilePath.old" -Level Info -Module "WidthFiles"
+                        Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
+                        
+                        return $result
+                    }
+                    catch {
+                        Write-ErrorLog $_
+                        return $false
+                    }
                 }
-                catch {
-                    Write-LogMessage "ÉCHEC DE LA DIVISION !" -Level Error -Module "WidthFiles"
-                    Write-LogMessage "Erreur : $_" -Level Error -Module "WidthFiles"
+                else {
+                    Write-LogMessage "Division automatique désactivée" -Level Info -Module "WidthFiles"
                     Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
                     return $false
                 }
             }
-            else {
-                Write-LogMessage "Division automatique désactivée" -Level Info -Module "WidthFiles"
-                Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
-                return $false
-            }
+            
+            Write-LogMessage "Le fichier respecte la limite de taille" -Level Info -Module "WidthFiles"
+            Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
+            return $true
         }
-        
-        Write-LogMessage "Le fichier respecte la limite de taille" -Level Info -Module "WidthFiles"
-        Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
-        return $true
+        catch {
+            Write-ErrorLog $_
+            return $false
+        }
     }
     
     function Watch-FileSize {
-        param(
-            [Parameter(Mandatory = $true)]
-            [string]$DirectoryPath,
-            
-            [Parameter(Mandatory = $false)]
-            [string]$Filter = "*.ps1",
-            
-            [Parameter(Mandatory = $false)]
-            [int]$MaxLines = 50,
-            
-            [Parameter(Mandatory = $false)]
-            [int]$IntervalSeconds = 30
-        )
-        
-        Write-LogMessage "========== SURVEILLANCE DÉMARRÉE ==========" -Level Info -Module "WidthFiles"
-        Write-LogMessage "Dossier surveillé : $DirectoryPath" -Level Info -Module "WidthFiles"
-        Write-LogMessage "Filtre : $Filter" -Level Info -Module "WidthFiles"
-        Write-LogMessage "Limite : $MaxLines lignes" -Level Info -Module "WidthFiles"
-        Write-LogMessage "Intervalle : $IntervalSeconds secondes" -Level Info -Module "WidthFiles"
-        Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
+        # ... (code existant) ...
         
         try {
-            while ($true) {
-                $files = Get-ChildItem -Path $DirectoryPath -Filter $Filter -File
-                foreach ($file in $files) {
-                    Test-FileLineCount -FilePath $file.FullName -MaxLines $MaxLines
-                }
-                Start-Sleep -Seconds $IntervalSeconds
-            }
+            # ... (code existant) ...
         }
         catch {
-            Write-LogMessage "ERREUR DE SURVEILLANCE !" -Level Error -Module "WidthFiles"
-            Write-LogMessage "Erreur : $_" -Level Error -Module "WidthFiles"
-            Write-LogMessage "=======================================" -Level Info -Module "WidthFiles"
+            Write-ErrorLog $_
         }
+        # ... (reste du code existant) ...
     }
+
     
     # Exporter les fonctions
     Export-ModuleMember -Function @(
@@ -135,3 +114,6 @@ New-Module -Name "WidthFilesControl" -ScriptBlock {
         'Watch-FileSize'
     )
 } | Import-Module
+
+                return $false
+            }

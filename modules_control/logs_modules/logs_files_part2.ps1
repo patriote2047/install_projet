@@ -1,4 +1,4 @@
-﻿#########################################################################
+#########################################################################
 # Module: logs_files_part2
 # Description: Partie 2 du fichier original
 # Date: 2025-01-08 14:09:17
@@ -21,6 +21,9 @@ function Write-LogMessage {
         
         [Parameter(Mandatory = $false)]
         [string]$Module = "General"
+
+        [Parameter(Mandatory = $false)]
+        [System.Management.Automation.ErrorRecord]$ErrorObject = $null
     )
     
     $logFile = Join-Path -Path $script:LogConfig.LogsFolder -ChildPath "$Module.log"
@@ -52,7 +55,40 @@ function Write-LogMessage {
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $logMessage = "[$timestamp] [$Level] $Message"
     
-    if ($script:LogConfig.ShowNewestFirst) {
+    # Gestion des erreurs
+    if ($ErrorObject) {
+        $logMessage += "`nErreur: $($ErrorObject.Exception.Message)`nStack Trace: $($ErrorObject.Exception.StackTrace)" 
+        # Appel de Write-ErrorLog pour l'enregistrement dans le fichier d'erreurs
+        Write-ErrorLog -ErrorRecord $ErrorObject -Module $Module
+    }
+    
+    Write-LogToFile -LogFile $logFile -Message $logMessage -ShowNewestFirst $script:LogConfig.ShowNewestFirst -Header $header -Logs $logs
+}
+
+function Write-ErrorLog {
+    <#
+    .SYNOPSIS
+        Ecrit les erreurs dans un fichier de log dédié.
+    #>
+    param(
+        [Parameter(Mandatory = $true)]
+        [System.Management.Automation.ErrorRecord]$ErrorRecord,
+        [Parameter(Mandatory = $false)]
+        [string]$Module = "Error"
+    )
+    Write-LogMessage -Message $ErrorRecord.Exception.Message -Level "Error" -Module $Module -ErrorObject $ErrorRecord
+}
+
+function Write-LogToFile {
+    param(
+        [string]$LogFile,
+        [string]$Message,
+        [bool]$ShowNewestFirst,
+        [array]$Header,
+        [array]$Logs
+    )
+
+    if ($ShowNewestFirst) {
         $newContent = @()
         if ($header) {
             $newContent += $header

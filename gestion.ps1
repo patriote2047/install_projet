@@ -18,32 +18,8 @@
 # Dépendances:
 # Commande externe: powershell
 #########################################################################
-function Write-Log {
-    param (
-        [string]$message
-    )
-    $logFile = "install.log"
-    $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-    Add-Content -Path $logFile -Value "[$timestamp] $message"
-}
-
-function Write-NpmLog {
-    param (
-        [string]$message
-    )
-    $logFile = "npm.log"
-    $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-    Add-Content -Path $logFile -Value "[$timestamp] $message"
-}
-
-function Write-WidthLog {
-    param (
-        [string]$message
-    )
-    $logFile = "witdh_files.log"
-    $timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-    Add-Content -Path $logFile -Value "[$timestamp] $message"
-}
+powershell
+        Import-Module $PSScriptRoot\logs_files.psm1
 
 function Check-FileWidth {
     param (

@@ -10,11 +10,10 @@
 # Ce module vérifie et corrige l'encodage des fichiers
 
 # Import des dépendances
-$modulePath = $PSScriptRoot
-Import-Module "$modulePath\modules_control\encoding_modules\Write-EncodingLog.psm1"
-Import-Module "$modulePath\modules_control\encoding_modules\Test-FileEncoding.psm1"
-Import-Module "$modulePath\modules_control\encoding_modules\Convert-FileEncoding.psm1"
-Import-Module "$modulePath\modules_control\encoding_modules\Add-EncodingControl.psm1"
+Import-Module "$PSScriptRoot\logs_files.psm1"
+Import-Module "$PSScriptRoot\modules_control\encoding_modules\Test-FileEncoding.psm1"
+Import-Module "$PSScriptRoot\modules_control\encoding_modules\Convert-FileEncoding.psm1"
+Import-Module "$PSScriptRoot\modules_control\encoding_modules\Add-EncodingControl.psm1"
 
 function Start-EncodingControl {
     [CmdletBinding()]
@@ -30,39 +29,40 @@ function Start-EncodingControl {
     )
 
     try {
-        Write-EncodingLog "=== Démarrage du contrôle d'encodage ===" -Level Info
+        Write-LogMessage "=== Démarrage du contrôle d'encodage ===" -Level Info -Module "Encoding"
         
         # Vérifier que le répertoire existe
         if (-not (Test-Path $DirectoryPath)) {
             throw "Le répertoire n'existe pas : $DirectoryPath"
         }
-        
+
         # Récupérer tous les fichiers correspondant aux critères
         $files = Get-ChildItem -Path $DirectoryPath -Include $Include -Recurse
         
         foreach ($file in $files) {
-            Write-EncodingLog "`nTest du fichier : $($file.FullName)" -Level Info
+            Write-LogMessage "`nTest du fichier : $($file.FullName)" -Level Info -Module "Encoding"
             
             # Vérifier l'encodage initial
             $initialEncoding = Test-FileEncoding -Path $file.FullName
-            Write-EncodingLog "Encodage initial : $initialEncoding" -Level Info
+            Write-LogMessage "Encodage initial : $initialEncoding" -Level Info -Module "Encoding"
             
             if ($initialEncoding -ne $TargetEncoding) {
-                Write-EncodingLog "Conversion nécessaire vers $TargetEncoding" -Level Info
+                Write-LogMessage "Conversion nécessaire vers $TargetEncoding" -Level Info -Module "Encoding"
                 $result = Convert-FileEncoding -Path $file.FullName -TargetEncoding $TargetEncoding
                 
                 if ($result) {
                     $newEncoding = Test-FileEncoding -Path $file.FullName
-                    Write-EncodingLog "Contrôle d'encodage réussi" -Level Success
-                    Write-EncodingLog "Nouvel encodage : $newEncoding" -Level Info
+                    Write-LogMessage "Contrôle d'encodage réussi" -Level Success -Module "Encoding"
+                    Write-LogMessage "Nouvel encodage : $newEncoding" -Level Info -Module "Encoding"
                 }
                 else {
-                    Write-EncodingLog "Échec du contrôle d'encodage" -Level Error
+                    Write-ErrorLog $_ -Module "Encoding"
                 }
             }
             else {
-                Write-EncodingLog "L'encodage est déjà correct ($TargetEncoding)" -Level Success
+                Write-LogMessage "L'encodage est déjà correct ($TargetEncoding)" -Level Success -Module "Encoding"
             }
+
         }
         
         Write-EncodingLog "`n=== Fin du contrôle d'encodage ===" -Level Info
@@ -70,7 +70,7 @@ function Start-EncodingControl {
     }
     catch {
         Write-EncodingLog "Erreur lors du contrôle d'encodage : $_" -Level Error
-        return $false
+        Write-ErrorLog $_
     }
 }
 
